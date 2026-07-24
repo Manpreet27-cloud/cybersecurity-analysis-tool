@@ -1,0 +1,8 @@
+2026-07-23 09:15:01 INFO User admin logged in from 192.168.10.10
+2026-07-23 09:20:10 WARNING Failed login for admin from 203.0.113.50
+2026-07-23 09:20:20 WARNING Failed login for admin from 203.0.113.50
+2026-07-23 09:20:30 ERROR Authentication failure from 203.0.113.50
+2026-07-23 09:22:05 WARNING Invalid password for user student from 198.51.100.25
+2026-07-23 09:25:40 INFO User instructor logged out
+2026-07-23 09:30:10 ERROR Login failed for user guest from 203.0.113.50
+2026-07-23 09:35:00 INFO Firewall rule updated
