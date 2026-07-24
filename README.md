@@ -1,39 +1,82 @@
 # Cybersecurity Analysis Tool
 
-## Project Description
+## Project Overview
 
-This project contains simple cybersecurity tools for analyzing security logs
-and identifying possible vulnerabilities. GitHub is used for version control,
-branch management, commits, code reviews, and pull requests. Freshworks is used
-to record and track project issues.
+The Cybersecurity Analysis Tool is a simple Python project that demonstrates the use of GitHub for version control and Freshservice for issue tracking. The project includes tools for analyzing security logs and identifying common cybersecurity vulnerabilities.
 
-## Project Features
+## Features
 
-- Analyze failed login attempts.
-- Identify suspicious IP addresses.
-- Detect warning and error messages in log files.
-- Check a computer for common security weaknesses.
-- Record bugs and feature requests in Freshworks.
-- Manage code changes through feature branches and pull requests.
+### Log Analyzer
+- Analyzes security log files
+- Detects failed login attempts
+- Counts warning messages
+- Counts error messages
+- Displays a security summary
 
-## Repository Branches
+### Vulnerability Scanner
+- Detects weak passwords
+- Detects outdated software
+- Detects open ports
+- Detects missing security updates
+- Displays a vulnerability summary
 
-- `main` – stable production version.
-- `development` – ongoing development work.
-- `feature/log-analysis` – log analysis feature.
-- `feature/vulnerability-scan` – vulnerability assessment feature.
-- `feature/documentation` – project documentation updates.
+## Technologies Used
 
-## Requirements
-
-- Python 3.10 or newer
+- Python 3
 - Git
-- A GitHub account
-- A Freshworks or Freshservice account
+- GitHub
+- Freshservice
 
-## Installation
+## Project Structure
 
-Clone the repository:
+```
+cybersecurity-analysis-tool/
+│── README.md
+│── log_analyzer.py
+│── vulnerability_scanner.py
+│── sample_security.log
+```
+
+## Branches
+
+The project was developed using the following branches:
+
+- main
+- development
+- feature/log-analysis
+- feature/vulnerability-scan
+
+## How to Run the Project
+
+### Run the Log Analyzer
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/cybersecurity-analysis-tool.git
+python log_analyzer.py sample_security.log
+```
+
+### Run the Vulnerability Scanner
+
+```bash
+python vulnerability_scanner.py
+```
+
+## Version Control
+
+GitHub was used to:
+- Create feature branches
+- Track code changes
+- Create pull requests
+- Merge completed features into the development branch
+
+## Issue Tracking
+
+Freshservice was used to:
+- Create cybersecurity issue tickets
+- Assign priorities
+- Track issue progress
+- Record resolution notes
+- Close completed issues
+
+## Author
+
+Manpreet Kaur
